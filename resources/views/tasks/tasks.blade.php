@@ -16,3 +16,4 @@
         @endforeach
     </tbody>
 </table>
+{{ $tasks->links('pagination::bootstrap-4') }}
